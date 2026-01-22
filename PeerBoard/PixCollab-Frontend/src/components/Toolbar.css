@@ -1,0 +1,25 @@
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  background-color: #fffbe6;
+  padding: 10px 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.toolbar button {
+  font-size: 18px;
+  padding: 6px 10px;
+  border: none;
+  background: #f0f0f0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.toolbar button.active {
+  background-color: #ffdd57;
+}
+.toolbar input[type="color"],
+.toolbar input[type="range"] {
+  cursor: pointer;
+}
+

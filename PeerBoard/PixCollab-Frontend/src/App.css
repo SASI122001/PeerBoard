@@ -1,0 +1,43 @@
+.pixcollab-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.pixcollab-title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 48px;
+  color: #753147;
+  background-color: #ffe4f2;
+  padding: 15px 40px;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border: 2px dashed #3668a5b8;
+}
+
+
+/* Optional animation */
+@keyframes popIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes floatIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+

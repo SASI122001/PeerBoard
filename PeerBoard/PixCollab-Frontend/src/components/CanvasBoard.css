@@ -1,0 +1,35 @@
+.canvas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://i.pinimg.com/736x/d5/8a/ea/d58aeae571ba066d823f35f7715f15b4.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+  transition: all 0.3s ease;
+}
+
+canvas {
+  border: 3px dashed #333;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.pixcollab-title {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5rem;
+  color: #ff69b4; /* Hot pink */
+  margin: 20px 0;
+  text-shadow: 2px 2px #ffe6f2; /* soft white shadow */
+  padding: 10px 20px;
+  border-radius: 15px;
+  background: linear-gradient(to right, #ffe0f0, #fff8fb); /* pastel pink blend */
+  border: 2px dashed #ffb6c1; /* soft pink dashed border */
+  display: inline-block;
+  animation: floatIn 0.6s ease-in-out;
+  box-shadow: 0 4px 8px rgba(255, 192, 203, 0.2); /* subtle pink glow */
+}
+
