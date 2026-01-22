@@ -1,6 +1,6 @@
 # 🖊️🎥 PeerBoard – Collaborative Whiteboard + Video Chat
 
-PixCollab is a **full-stack real-time collaboration app** that lets users:
+PeerBoard is a **full-stack real-time collaboration app** that lets users:
 - ✅ Draw together on a shared whiteboard
 - ✅ Chat via peer-to-peer video call
 - ✅ Use basic controls: toggle video/audio, drop call
